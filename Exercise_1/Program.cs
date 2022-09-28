@@ -10,6 +10,7 @@ Console.WriteLine("Введите второе число: ");
 int B = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"Число {A} в степени {B} = {GetNumber(A, B)}");
 
+
 int GetNumber(int x, int y)
 {
     return Convert.ToInt32(Math.Pow(x, y));
